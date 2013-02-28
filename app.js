@@ -3,7 +3,7 @@ var express = require('express');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('This is a node.js app hosted on heroku with a custom domain!');
+  response.send('<a href="http://twitter.com/eralpkaraduman">eralp</a>');
 });
 
 var port = process.env.PORT || 5000;
