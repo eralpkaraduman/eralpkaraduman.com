@@ -38,7 +38,7 @@ var donate = '<br/><form action="https://www.paypal.com/cgi-bin/webscr" method="
 '</form>';
 
 
-  response.send('<head><meta http-equiv="Content-type" content="text/html; charset=utf-8"></head><body><p>bazen olan şeyler her zaman olmayabilir</p>'+donate+'<br/><a href="http://twitter.com/super_damage">eralp</a></body>');
+  response.send('<head><meta http-equiv="Content-type" content="text/html; charset=utf-8"></head><body><p>bazen olan şeyler her zaman olmayabilir</p>'+donate+'<br/><a href="http://twitter.com/eralpkaraduman">eralp</a></body>');
 });
 
 var port = process.env.PORT || 4000;
