@@ -37,8 +37,9 @@ var donate = '<br/><form action="https://www.paypal.com/cgi-bin/webscr" method="
 '<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">'+
 '</form>';
 
+var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>'
 
-  response.send('<head><meta http-equiv="Content-type" content="text/html; charset=utf-8"></head><body><p>bazen olan şeyler her zaman olmayabilir</p>'+donate+'<br/><a href="http://twitter.com/eralpkaraduman">eralp</a></body>');
+  response.send('<head><meta http-equiv="Content-type" content="text/html; charset=utf-8"></head><body><h1>This Is My Web Site</h1><h3>My name is Eralp Karaduman</h3><p><i>"bazen olan şeyler her zaman olmayabilir"</i></p>'+donate+'<br/>'+blog+'<a href="http://twitter.com/eralpkaraduman">tweets</a></body>');
 });
 
 var port = process.env.PORT || 4000;
