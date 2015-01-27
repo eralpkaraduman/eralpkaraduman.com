@@ -64,7 +64,7 @@ var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>'
 		]
 	};
 
-	response.send('<html><head><meta http-equiv="Content-type" content="text/html; charset=utf-8"></head><body><pre>' + JSON.stringify(obj, undefined, 4) + '</pre></body></html>');
+	response.send('<html><head><meta http-equiv="Content-type" content="text/html; charset=utf-8"></head><body><pre>' + JSON.stringify(obj, undefined, 4) + '</pre>'+donate+'</body></html>');
 
 	
 
