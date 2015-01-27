@@ -39,7 +39,7 @@ var donate = '<br/><form action="https://www.paypal.com/cgi-bin/webscr" method="
 
 var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>'
 
-  response.send('<head><meta http-equiv="Content-type" content="text/html; charset=utf-8"></head><body><h1>This Is My Web Site</h1><h3>My name is Eralp Karaduman</h3><p><i>"bazen olan şeyler her zaman olmayabilir"</i></p>'+donate+'<br/>'+blog+'<a href="http://twitter.com/eralpkaraduman">tweets</a></body>');
+  response.send('<head><meta http-equiv="Content-type" content="text/html; charset=utf-8"></head><body><h1>This Is My Web Site</h1><h3>I\'m Eralp Karaduman, half of <a href="http://superdamage.com">Super Damage Games</a></h3><p><i>"bazen olan şeyler her zaman olmayabilir"</i></p>'+donate+'<br/>'+blog+'<a href="http://twitter.com/eralpkaraduman">tweets</a></body>');
 });
 
 var port = process.env.PORT || 4000;
