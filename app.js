@@ -58,7 +58,7 @@ var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>'
 			"Node.js"	
 		],
 		notableProjects:[
-			{"LD48 - Rockmorse":"superdamage.itch.io/rockmorse"}
+			{"LD48 - Rockmorse":"http://superdamage.itch.io/rockmorse"}
 		]
 	};
 
