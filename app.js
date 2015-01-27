@@ -42,7 +42,7 @@ var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>'
 	var ob = {
 		name:"Eralp",
 		lastName:"Karaduman",
-		occupation:"Mobile Apps & Game Designer + Developer",
+		occupation:"Mobile Apps & Games Designer + Developer",
 		titles:["Half Of Super Damage Games","Mobile Applications Developer At Publik"],
 		webSite:"http://superdamage.com",
 		blog:"biseyyapiyorum.tumblr.com",
