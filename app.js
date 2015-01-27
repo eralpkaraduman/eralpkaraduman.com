@@ -64,7 +64,11 @@ var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>'
 		]
 	};
 
-	response.send(JSON.stringify(obj, undefined, 4));
+	response.send('<html><head><meta http-equiv="Content-type" content="text/html; charset=utf-8"></head><body><pre>' + JSON.stringify(obj, undefined, 4) + '</pre></body></html>');
+
+	
+
+	//response.send(JSON.stringify(obj, undefined, 4));
 
   //response.send('<head><meta http-equiv="Content-type" content="text/html; charset=utf-8"></head><body><h1>This Is My Web Site</h1><h3>I\'m Eralp Karaduman, half of <a href="http://superdamage.com">Super Damage Games</a></h3>'+donate+'<br/>'+blog+'<a href="http://twitter.com/eralpkaraduman">tweets</a></body>');
 });
