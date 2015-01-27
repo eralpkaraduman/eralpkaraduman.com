@@ -39,14 +39,14 @@ var donate = '<br/><form action="https://www.paypal.com/cgi-bin/webscr" method="
 
 var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>'
 
-	var ob = {
+	var obj = {
 		name:"Eralp",
 		lastName:"Karaduman",
 		occupation:"Mobile Apps & Games Designer + Developer",
 		titles:["Half Of Super Damage Games","Mobile Applications Developer At Publik"],
 		webSite:"http://superdamage.com",
-		blog:"biseyyapiyorum.tumblr.com",
-		twitter:"twitter.com/eralpkaraduman",
+		blog:"http://biseyyapiyorum.tumblr.com",
+		twitter:"http://twitter.com/eralpkaraduman",
 		skills:[
 			"Objective-C (iOS)",
 			"C/C++",
@@ -57,9 +57,12 @@ var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>'
 			"JavaScript",
 			"Node.js"	
 		],
+		notableProjects:[
+			{"LD48 - Rockmorse":"superdamage.itch.io/rockmorse"}
+		]
 	};
 
-	response.json(ob);
+	response.send(JSON.stringify(obj, undefined, 4));
 
   //response.send('<head><meta http-equiv="Content-type" content="text/html; charset=utf-8"></head><body><h1>This Is My Web Site</h1><h3>I\'m Eralp Karaduman, half of <a href="http://superdamage.com">Super Damage Games</a></h3>'+donate+'<br/>'+blog+'<a href="http://twitter.com/eralpkaraduman">tweets</a></body>');
 });
