@@ -45,7 +45,11 @@ var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>'
 		email:"eralp@superdamage.com",
 		id:0,
 		occupation:"Mobile Apps & Games Designer + Developer",
-		titles:["Half Of Super Damage Games","Mobile Applications Developer At Publik"],
+		titles:[
+			"Half Of Super Damage Games",
+			"Software Developer At Hipo",
+			"Co-Founder At CupsOn.Me"
+			],
 		webSite:"http://superdamage.com",
 		blog:"http://biseyyapiyorum.tumblr.com",
 		twitter:"http://twitter.com/eralpkaraduman",
