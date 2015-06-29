@@ -37,7 +37,7 @@ var donate = '<br/><form action="https://www.paypal.com/cgi-bin/webscr" method="
 '<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">'+
 '</form>';
 
-var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>'
+var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>';
 
 	var obj = {
 		name:"Eralp",
