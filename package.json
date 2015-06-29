@@ -2,9 +2,13 @@
   "name": "eralpkaraduman",
   "version": "0.0.1",
   "dependencies": {
-    "express": "2.5.x"
+    "express": "2.5.x",
+    "jshint": "^2.6.0"
   },
   "engines": {
     "node": "0.10.26"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint app.js"
   }
 }
