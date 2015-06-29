@@ -68,6 +68,10 @@ var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>';
 			{
 				"name":"LD48 - Rockmorse",
 				"url":"http://superdamage.itch.io/rockmorse"
+			},
+			{
+				"name":"eralpkaraduman.com",
+				"url":"http://github.com/eralpkaraduman/eralpkaraduman.com"
 			}
 		]
 	};
