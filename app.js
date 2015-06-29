@@ -58,6 +58,7 @@ var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>'
 			"C/C++",
 			"C# (Unity3D)",
 			"Java (Android)",
+			"Python",
 			"Blender 3D",
 			"Accepetable Art Skills",
 			"JavaScript",
