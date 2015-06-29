@@ -50,11 +50,11 @@ var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>'
 			"Software Developer At Hipo",
 			"Co-Founder At CupsOn.Me"
 			],
-		webSite:"http://superdamage.com",
+		website:"http://superdamage.com",
 		blog:"http://biseyyapiyorum.tumblr.com",
 		twitter:"http://twitter.com/eralpkaraduman",
 		skills:[
-			"Objective-C (iOS)",
+			"objective-C (iOS)",
 			"C/C++",
 			"C# (Unity3D)",
 			"Java (Android)",
