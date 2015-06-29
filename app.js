@@ -54,7 +54,7 @@ var blog = '<p><a href="http://biseyyapiyorum.tumblr.com">things i do</a></p>';
 		blog:"http://biseyyapiyorum.tumblr.com",
 		twitter:"http://twitter.com/eralpkaraduman",
 		skills:[
-			"objective-C (iOS)",
+			"Objective-C",
 			"C/C++",
 			"C# (Unity3D)",
 			"Java (Android)",
