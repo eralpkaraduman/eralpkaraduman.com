@@ -3,10 +3,10 @@
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "0tLUaPu821o4eu5/hQ0wVUQifPU=",
+			"checksumSHA1": "XxSDNaJf0LpjvMapDmmhNIlf+MQ=",
 			"path": "github.com/gin-gonic/gin",
-			"revision": "f931d1ea80ae95a6fc739213cdd9399bd2967fb6",
-			"revisionTime": "2016-05-25T12:45:45Z"
+			"revision": "5caaac4c5c712a9e7a7de29e6c24ef46c753017f",
+			"revisionTime": "2016-04-14T23:39:28Z"
 		},
 		{
 			"checksumSHA1": "UsILDoIB2S7ra+w2fMdb85mX3HM=",
