@@ -31,6 +31,12 @@
 			"path": "github.com/manucorporat/sse",
 			"revision": "ee05b128a739a0fb76c7ebd3ae4810c1de808d6d",
 			"revisionTime": "2016-01-26T18:01:36Z"
+		},
+		{
+			"checksumSHA1": "9jjO5GjLa0XF/nfWihF02RoH4qc=",
+			"path": "golang.org/x/net/context",
+			"revision": "749a502dd1eaf3e5bfd4f8956748c502357c0bbe",
+			"revisionTime": "2016-09-12T14:44:02Z"
 		}
 	],
 	"rootPath": "github.com/eralpkaraduman/eralpkaraduman.com"
