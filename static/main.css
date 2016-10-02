@@ -1,0 +1,13 @@
+.site-title {
+  font-size: 20px;
+  display: inline-block;
+  margin: 0;
+  margin-right: 5px;
+  color: white;
+}
+.site-subtitle {
+  font-size: 14px;
+  display: inline-block;
+  margin: 0;
+  margin-right: 5px;
+}
