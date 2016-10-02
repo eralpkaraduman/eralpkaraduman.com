@@ -1,0 +1,13 @@
+{
+  "name": "eralpkaraduman.com",
+  "description": "eralpkaraduman.com",
+  "keywords": [
+    "eralp",
+    "karaduman",
+    "eralpkaraduman"
+  ],
+  "image": "heroku/go:1.7",
+  "mount_dir": "src/github.com/eralpkaraduman/eralpkaraduman.com",
+  "website": "http://github.com/eralpkaraduman/eralpkaraduman.com",
+  "repository": "http://github.com/eralpkaraduman/eralpkaraduman.com"
+}
