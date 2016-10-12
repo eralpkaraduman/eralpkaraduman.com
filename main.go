@@ -29,7 +29,7 @@ func main() {
 
 	router.GET("/", func(c *gin.Context) {
 
-		c.HTML(http.StatusOK, "base", gin.H{
+		c.HTML(http.StatusOK, "index.tmpl.html", gin.H{
 			"content": markDownContentHTML("home.md"),
 		})
 
@@ -42,7 +42,6 @@ func markDownContentHTML(mdPath string) template.HTML {
 	relativeContentPath := path.Join("content", mdPath)
 	absoluteContentPath, _ := filepath.Abs(relativeContentPath)
 	contentData, _ := ioutil.ReadFile(absoluteContentPath)
-	//contentString := string(contentData)
 	htmlContent := blackfriday.MarkdownCommon(contentData)
 	htmlString := string(htmlContent)
 	return template.HTML(htmlString)
