@@ -18,5 +18,5 @@ Best ways to contact me would be;
 ### About this site
 
 I'm currently learning [golang](http://golang.org) as hobby and this site is my playground. It's basically very simple [jekyll](https://jekyllrb.com) clone, serving [markdown](https://en.wikipedia.org/wiki/Markdown) content, It will eventually be a blog some day.  
-It's open source on: [github.com/eralpkaraduman/eralpkaraduman.com](http://github.com/eralpkaraduman/eralpkaraduman.com)  
+It's [open source on github](http://github.com/eralpkaraduman/eralpkaraduman.com).  
 Suggestions, contributions & criticism are more than welcome.
