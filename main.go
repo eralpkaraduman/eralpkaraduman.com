@@ -1,7 +1,7 @@
 package main
 
 import (
-	//"fmt"
+	"fmt"
 	"log"
 	"net/http"
 	"os"
@@ -42,5 +42,6 @@ func markDownContentHTML(mdPath string) template.HTML {
 	contentData, _ := ioutil.ReadFile(absoluteContentPath)
 	htmlContent := blackfriday.MarkdownCommon(contentData)
 	htmlString := string(htmlContent)
+	fmt.Prinln(absoluteContentPath)
 	return template.HTML(htmlString)
 }
