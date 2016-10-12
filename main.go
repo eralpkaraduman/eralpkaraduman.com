@@ -28,7 +28,6 @@ func main() {
 	router.Static("/static", "static")
 
 	router.GET("/", func(c *gin.Context) {
-		log.Fatal("hi")
 		c.HTML(http.StatusOK, "index.tmpl.html", gin.H{
 			"content": markDownContentHTML("home.md"),
 		})
