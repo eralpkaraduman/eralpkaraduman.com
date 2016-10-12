@@ -42,6 +42,7 @@ func markDownContentHTML(mdPath string) template.HTML {
 	contentData, _ := ioutil.ReadFile(absoluteContentPath)
 	htmlContent := blackfriday.MarkdownCommon(contentData)
 	htmlString := string(htmlContent)
-	fmt.Prinln(absoluteContentPath)
+	fmt.Println(relativeContentPath)
+	fmt.Println(absoluteContentPath)
 	return template.HTML(htmlString)
 }
