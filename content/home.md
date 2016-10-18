@@ -9,7 +9,7 @@ When I'm not working on apps, I like **making games** at our own [Super Damage G
 **I'm available for hire!**   
 I've just recently shipped a new product,  
 And now looking for the next exciting project to work on.  
-[Download my CV](goo.gl/zau5pb)
+[Download my CV](http://goo.gl/zau5pb)
 
 Best ways to contact me would be;  
 **Email:** [eralp@eralpkaraduman.com](mailto:eralp@eralpkaraduman.com)  
