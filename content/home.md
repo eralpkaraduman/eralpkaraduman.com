@@ -6,9 +6,10 @@ I'm a **full stack mobile software developer** based in Helsinki, Finland.
 I build mostly **iOS** apps along with their **backend** and **Android** counterparts.  
 When I'm not working on apps, I like **making games** at our own [Super Damage Games](http://superdamage.com)
 
-**I'm available for hire!**   
-I've just recently shipped a new product,  
-And now looking for the next exciting project to work on.  
+<s>**I'm available for hire!**</s> 
+*(not looking for work currently)*  
+<s>I've just recently shipped a new product,</s>  
+<s>And now looking for the next exciting project to work on.</s>  
 **[Download my CV](http://goo.gl/zau5pb)**
 
 Best ways to contact me would be;  
