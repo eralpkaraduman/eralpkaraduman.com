@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --colors --progress --config webpack.config.js",
-    "dev": "webpack-dev-server --colors --progress --hot --inline --config webpack.config.js",
+    "dev": "webpack-dev-server --colors --progress --hot --inline --open --config webpack.config.js",
     "deploy": "s3-upload"
   },
   "repository": {
