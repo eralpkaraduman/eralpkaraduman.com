@@ -2,7 +2,7 @@ module.exports = {
 		credentials:"aws-credentials.json",
 		bucketName:"static.eralpkaraduman.com",
 		patterns:[
-				"dist/*.",
+				"dist/*",
 				"index.html"
 		]
 }
