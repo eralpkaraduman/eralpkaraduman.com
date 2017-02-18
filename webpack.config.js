@@ -3,6 +3,9 @@
 const path = require('path');
 const packageConfig = require('./package');
 const HtmlPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CreateFilePlugin = require('webpack-create-file-plugin');
+const WriteFilePlugin = require('write-file-webpack-plugin');
 const awsCredentials = require('./aws-credentials');
 
 module.exports = {
@@ -15,16 +18,14 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   devtool: 'source-map',
-  devServer:{
-    contentBase: '.'
-  },
+  devServer:{},
   module: {
     rules: [
       {
         enforce: 'pre',
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'jsxhint-loader'
+        loader: 'eslint-loader'
       },
       {
 		    test: /\.js?$/,
@@ -33,7 +34,17 @@ module.exports = {
         query: {
           presets: ['es2015', 'react']
         }
-		  }
+		  },
+      {
+        test: /\.css$/,
+        use: ExtractTextPlugin.extract({
+          use: 'css-loader'
+        })
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        use: 'file-loader'
+      }
 		]
   },
   plugins: [
@@ -42,9 +53,17 @@ module.exports = {
       template: 'index.ejs',
       inject: 'body',
       filename: '../index.html'
-    })
+    }),
+    new ExtractTextPlugin('styles.css'),
+    new CreateFilePlugin({
+      files: [ // generates empty files
+        'bootstrap.min.css.map',
+        'bootstrap-theme.min.css.map'
+      ] 
+    }),
+    new WriteFilePlugin() // forces dev server to write files
   ],
   resolve: {
-    extensions: ['.js', '.es6']
+    extensions: ['.js', '.es6', '.css']
   },
 }
