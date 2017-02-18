@@ -3,6 +3,7 @@
 const path = require('path');
 const packageConfig = require('./package');
 const HtmlPlugin = require('html-webpack-plugin');
+const awsCredentials = require('./aws-credentials');
 
 module.exports = {
   context: path.resolve(__dirname, 'src'),
@@ -35,11 +36,14 @@ module.exports = {
 		  }
 		]
   },
-  plugins: [new HtmlPlugin({
-        title: packageConfig.name,
-        template: 'index.ejs',
-        inject: 'body'
-    })],
+  plugins: [
+    new HtmlPlugin({
+      title: packageConfig.name,
+      template: 'index.ejs',
+      inject: 'body',
+      filename: '../index.html'
+    })
+  ],
   resolve: {
     extensions: ['.js', '.es6']
   },
