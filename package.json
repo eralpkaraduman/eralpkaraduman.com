@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --colors --progress --config webpack.config.js",
-    "dev": "webpack-dev-server --colors --progress --hot --inline --config webpack.config.js"
+    "dev": "webpack-dev-server --colors --progress --hot --inline --config webpack.config.js",
+    "deploy": "s3-upload"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,9 @@
     "jshint-loader": "^0.8.3",
     "jsxhint-loader": "^0.2.0",
     "node-libs-browser": "^2.0.0",
+    "npm": "^4.2.0",
     "react-hot-loader": "^1.3.1",
+    "s3-upload": "^0.1.0",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0"
   },
