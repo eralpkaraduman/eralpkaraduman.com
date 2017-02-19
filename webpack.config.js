@@ -6,7 +6,7 @@ const HtmlPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CreateFilePlugin = require('webpack-create-file-plugin');
 const WriteFilePlugin = require('write-file-webpack-plugin');
-const awsCredentials = require('./aws-credentials');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = {
   context: path.resolve(__dirname, 'src'),
@@ -58,9 +58,13 @@ module.exports = {
         'bootstrap-theme.min.css.map'
       ] 
     }),
-    new WriteFilePlugin() // forces dev server to write files
+    new WriteFilePlugin(), // forces dev server to write files
+    new FaviconsWebpackPlugin({
+      logo: "./favicon-source.jpg",
+      persistentCache: true,
+    }),
   ],
   resolve: {
-    extensions: ['.js', '.es6', '.css']
+    extensions: ['.js', '.es6', '.css', '.jpg']
   },
 }
