@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "eralpkaraduman.com",
+  "googleAnalyticsUA": "UA-85599671-1",
   "main": "index.js",
   "engines": {
     "node": ">=7.1",

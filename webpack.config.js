@@ -45,6 +45,9 @@ module.exports = {
   plugins: [
     new HtmlPlugin({
       title: packageConfig.name,
+      description: packageConfig.description,
+      author: packageConfig.author,
+      googleAnalyticsUA: packageConfig.googleAnalyticsUA,
       template: 'index.ejs',
       inject: 'body',
       filename: '../index.html',
@@ -60,6 +63,9 @@ module.exports = {
     new FaviconsWebpackPlugin({
       logo: './favicon-source.jpg',
       persistentCache: true,
+      title: packageConfig.name,
+      inject: true,
+      emitStats: false,
     }),
   ],
   resolve: {
