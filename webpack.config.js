@@ -2,8 +2,6 @@ const path = require('path');
 const packageConfig = require('./package');
 const HtmlPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const CreateFilePlugin = require('webpack-create-file-plugin');
-const WriteFilePlugin = require('write-file-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = {
@@ -37,12 +35,16 @@ module.exports = {
         }),
       },
       {
-        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        test: /\.(eot|svg|ttf|woff|woff2|png|jpg|jpeg)$/,
         use: 'file-loader',
       },
       {
         test: /\.json$/,
         use: 'json-loader',
+      },
+      {
+        test: /\.(txt|md)$/,
+        use: 'raw-loader',
       },
     ],
   },
@@ -54,18 +56,11 @@ module.exports = {
       googleAnalyticsUA: packageConfig.googleAnalyticsUA,
       template: 'index.ejs',
       inject: 'body',
-      filename: '../index.html',
+      filename: 'index.html',
     }),
     new ExtractTextPlugin('styles.css'),
-    new CreateFilePlugin({
-      files: [ // generates empty files
-        'bootstrap.min.css.map',
-        'bootstrap-theme.min.css.map',
-      ],
-    }),
-    new WriteFilePlugin(), // forces dev server to write files
     new FaviconsWebpackPlugin({
-      logo: './favicon-source.jpg',
+      logo: './profilePicture.png',
       persistentCache: true,
       title: packageConfig.name,
       inject: true,
