@@ -1,6 +1,0 @@
-.DS_Store
-*.log
-node_modules
-aws-credentials.json
-index.html
-dist/*
