@@ -8,14 +8,14 @@ import './index.css'
 
 const Layout = ({ children, data }) => (
   <div className="row center-xs">
+    <Helmet
+      title={data.site.siteMetadata.title}
+      meta={[
+        { name: 'description', content: 'Sample' },
+        { name: 'keywords', content: 'sample, something' },
+      ]}
+    />
     <div className="col-xs-12 col-sm-8 col-md-6">
-      <Helmet
-        title={data.site.siteMetadata.title}
-        meta={[
-          { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' },
-        ]}
-      />
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
