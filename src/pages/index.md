@@ -11,3 +11,6 @@ When I'm not working on apps, I like **making games** with **Unity3D** at our ow
 Best ways to contact me would be;  
 **Email:** [eralp@eralpkaraduman.com](mailto:eralp@eralpkaraduman.com)  
 **Twitter:** [@eralpkaraduman](http://twitter.com/eralpkaraduman)  
+**GitHub:** [eralpkaraduman](http://github.com/eralpkaraduman)  
+  
+This site is made with [GatsbyJS](https://www.gatsbyjs.org) and open source at [github.com/eralpkaraduman/eralpkaraduman.com](https://github.com/eralpkaraduman/eralpkaraduman.com)
