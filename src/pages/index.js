@@ -1,11 +1,35 @@
 import React from 'react'
+import styled from 'styled-components';
 
-const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-  </div>
-)
+const StyledContainer = styled.div`
+  text-align: start;
+`;
 
-export default IndexPage
+const IndexPage = ({ data }) => {
+  const [{node}] = data.allFile.edges;
+  return (
+    <div className='row start-xs'>
+      <div className='col-xs'>
+        <StyledContainer
+          dangerouslySetInnerHTML={ { __html: node.childMarkdownRemark.html } }
+        />
+      </div>
+    </div>
+  )
+}
+
+export default IndexPage;
+
+export const pageQuery = graphql`
+  query IndexContentQuery {
+    allFile(limit: 1, filter: {sourceInstanceName: {eq: "index-markdown-content"}}) {
+      edges {
+        node {
+          childMarkdownRemark {
+            html
+          }
+        }
+      }
+    }
+  }
+`;

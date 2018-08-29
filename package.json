@@ -1,18 +1,23 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "eralpkaraduman.com",
+  "private": true,
+  "description": "Personal website of Eralp Karaduman",
+  "version": "2.0.0",
+  "author": "Eralp Karaduman <eralp@eralpkaraduman.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
     "flexboxgrid": "^6.3.1",
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
+    "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-styled-components": "^2.0.11",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-remark": "^1.7.44",
     "react-helmet": "^5.2.0",
     "styled-components": "^3.4.2",
-    "url-loader": "^1.0.1"
+    "url-loader": "^1.0.1",
+    "s3-upload": "^0.1.0"
   },
   "keywords": [
     "gatsby"
@@ -21,6 +26,8 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "upload": "cd public && s3-upload ../conf/aws-upload.conf.js",
+    "deploy": "npm run build && npm run upload",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,6 +36,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/eralpkaraduman/eralpkaraduman.com"
   }
 }
