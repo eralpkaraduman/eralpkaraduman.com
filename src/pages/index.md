@@ -13,4 +13,5 @@ Best ways to contact me would be;
 **Twitter:** [@eralpkaraduman](http://twitter.com/eralpkaraduman)  
 **GitHub:** [eralpkaraduman](http://github.com/eralpkaraduman)  
   
-This site is made with [GatsbyJS](https://www.gatsbyjs.org) and open source at [github.com/eralpkaraduman/eralpkaraduman.com](https://github.com/eralpkaraduman/eralpkaraduman.com)
+This site is made with [GatsbyJS](https://www.gatsbyjs.org) and open source at;  
+[github.com/eralpkaraduman/eralpkaraduman.com](https://github.com/eralpkaraduman/eralpkaraduman.com)
