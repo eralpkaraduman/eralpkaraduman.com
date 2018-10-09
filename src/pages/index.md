@@ -6,7 +6,7 @@ Previously I built **iOS** apps with **swift** / **Objective-C** along with thei
 
 When I'm not working on apps, I like **making games** with **Unity3D** at our own [Super Damage Games](http://superdamage.com)  
 
-**[Download my CV](http://goo.gl/zau5pb)**  
+**[Download my CV](https://eralpkaraduman.github.io/cv/)**  
 
 Best ways to contact me would be;  
 **Email:** [eralp@eralpkaraduman.com](mailto:eralp@eralpkaraduman.com)  
