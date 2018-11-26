@@ -1,6 +1,6 @@
-I'm a **software generalist** based in Helsinki, Finland. Working in **Games Industy**.  
+I'm a **software generalist** based in Helsinki, Finland. Working in **Games Industry**.  
 
-Recently i became enthusiastic about modern **javascript** and technologies like **NodeJS**, **TypeScript**, **React** and **Redux**.  
+Recently, I became enthusiastic about modern **javascript** and technologies like **NodeJS**, **TypeScript**, **React** and **Redux**.  
 
 Previously I built **iOS** apps with **swift** / **Objective-C** along with their **backend** and **Android** counterparts for quite some time.  
 
