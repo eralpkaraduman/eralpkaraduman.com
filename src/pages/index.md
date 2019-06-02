@@ -1,6 +1,6 @@
-I'm a **software generalist** based in Helsinki, Finland. Working in **Games Industry**.  
+I'm a **senior software developer** based in Helsinki, Finland. Making **mobile apps** as a consultant.  
 
-Recently, I became enthusiastic about modern **javascript** and technologies like **NodeJS**, **TypeScript**, **React** and **Redux**.  
+Nowadays I'm making **cross-platform** apps using **React Native** and also getting familiar with **Flutter**. Also have experience with **javascript** and technologies like **NodeJS**, **TypeScript**, **React** and **Redux**.  
 
 Previously I built **iOS** apps with **swift** / **Objective-C** along with their **backend** and **Android** counterparts for quite some time.  
 
@@ -13,5 +13,5 @@ Best ways to contact me would be;
 **Twitter:** [@eralpkaraduman](http://twitter.com/eralpkaraduman)  
 **GitHub:** [eralpkaraduman](http://github.com/eralpkaraduman)  
   
-This site is made with [GatsbyJS](https://www.gatsbyjs.org) and open source at;  
+This site is open source at;  
 [github.com/eralpkaraduman/eralpkaraduman.com](https://github.com/eralpkaraduman/eralpkaraduman.com)
