@@ -1,6 +1,6 @@
-I'm a **senior software developer** based in Helsinki, Finland. Making **mobile apps** as a consultant.  
+I'm a **senior software developer** based in Helsinki, Finland Working on **mobile apps** as a consultant.  
 
-Nowadays I'm making **cross-platform** apps using **React Native** and also getting familiar with **Flutter**. Also have experience with **javascript** and technologies like **NodeJS**, **TypeScript**, **React** and **Redux**.  
+Nowadays I'm making **cross-platform** apps using **React Native** and getting familiar with **Flutter**. Also have experience with **javascript** and technologies like **NodeJS**, **TypeScript**, **React** and **Redux**.  
 
 Previously I built **iOS** apps with **swift** / **Objective-C** along with their **backend** and **Android** counterparts for quite some time.  
 
