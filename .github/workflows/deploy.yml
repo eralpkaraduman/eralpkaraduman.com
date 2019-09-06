@@ -12,9 +12,8 @@ jobs:
         node-version: [10.8.0]
 
     steps:
-      uses: actions/aws/cli@master
-      with:
-        secrets: [AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY]
+    - uses: actions/aws/cli@master
+      secrets: [AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY]
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
