@@ -12,11 +12,11 @@ jobs:
         node-version: [10.8.0]
 
     steps:
+      uses: actions/aws/cli@master
+      with:
+        secrets: ["AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY"]
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
-    - uses: actions/aws/cli@master
-    - args: sns publish --topic-arn `jq .TopicArn /github/home/Topic.json --raw-output` --subject \"[$GITHUB_REPOSITORY] Code was pushed to $GITHUB_REF\" --message file://$GITHUB_EVENT_PATH
-    - secrets: ["AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY"]
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
