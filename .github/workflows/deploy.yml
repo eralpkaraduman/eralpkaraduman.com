@@ -12,8 +12,7 @@ jobs:
         node-version: [10.8.0]
 
     steps:
-    - uses: actions/aws/cli@master
-      run: aws configure
+      uses: actions/aws/cli@master
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
@@ -24,6 +23,7 @@ jobs:
         npm install
         npm run build
         # npm test
+        aws configure
         npm run deploy
       env:
         CI: true
