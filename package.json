@@ -5,19 +5,23 @@
   "version": "2.0.0",
   "author": "Eralp Karaduman <eralp@eralpkaraduman.com>",
   "dependencies": {
-    "babel-plugin-styled-components": "^1.5.1",
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint-plugin-flowtype": "^2.50.3",
     "flexboxgrid": "^6.3.1",
-    "gatsby": "^1.9.277",
-    "gatsby-link": "^1.6.46",
-    "gatsby-plugin-google-analytics": "^1.0.31",
-    "gatsby-plugin-react-helmet": "^2.0.11",
-    "gatsby-plugin-styled-components": "^2.0.11",
-    "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
-    "react-helmet": "^5.2.0",
-    "styled-components": "^3.4.2",
-    "url-loader": "^1.0.1",
-    "s3-upload": "^0.1.0"
+    "gatsby": "^2.15.9",
+    "gatsby-plugin-google-analytics": "^2.1.14",
+    "gatsby-plugin-react-helmet": "^3.1.6",
+    "gatsby-plugin-s3": "^0.3.2",
+    "gatsby-plugin-styled-components": "^3.1.4",
+    "gatsby-source-filesystem": "^2.1.21",
+    "gatsby-transformer-remark": "^2.6.21",
+    "prettier": "^1.18.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^3.4.10",
+    "typescript": "^3.6.2",
+    "url-loader": "^1.1.2"
   },
   "keywords": [
     "gatsby"
@@ -26,13 +30,9 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "upload": "cd public && s3-upload ../conf/aws-upload.conf.js",
-    "deploy": "npm run build && npm run upload",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "prettier": "^1.13.7"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby-plugin-s3 deploy"
   },
   "repository": {
     "type": "git",

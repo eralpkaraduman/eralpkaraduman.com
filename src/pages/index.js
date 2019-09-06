@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import Layout from "../components/layout"
 
 const StyledContainer = styled.div`
   text-align: start;
@@ -8,13 +9,15 @@ const StyledContainer = styled.div`
 const IndexPage = ({ data }) => {
   const [{node}] = data.allFile.edges;
   return (
-    <div className='row start-xs'>
-      <div className='col-xs'>
-        <StyledContainer
-          dangerouslySetInnerHTML={ { __html: node.childMarkdownRemark.html } }
-        />
+    <Layout>
+      <div className='row start-xs'>
+        <div className='col-xs'>
+          <StyledContainer
+            dangerouslySetInnerHTML={ { __html: node.childMarkdownRemark.html } }
+          />
+        </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 
