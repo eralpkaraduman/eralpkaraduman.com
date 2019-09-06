@@ -13,6 +13,7 @@ jobs:
 
     steps:
     - uses: actions/aws/cli@master
+      run: aws configure
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
