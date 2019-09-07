@@ -23,9 +23,10 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      run: echo "lol"
-      run: echo $AWS_ACCESS_KEY_ID
-      run: aws configure
+      run: |
+        echo "lol"
+        echo $AWS_ACCESS_KEY_ID
+        aws configure
     - name: npm install, build, deploy
       run: |
         npm install
