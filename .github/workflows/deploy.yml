@@ -21,12 +21,16 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}  
-      uses: actions/aws/cli@master
-    - name: npm install, build, deploy
+      run: |
+        pip install awscli
+        aws configure
+    - name: npm install, build
       run: |
         npm install
         npm run build
         # npm test
-        npm run deploy
       env:
         CI: true
+    - name: deploy
+      run |
+        npm run deploy
