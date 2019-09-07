@@ -15,3 +15,5 @@ Best ways to contact me would be;
   
 This site is open source at;  
 [github.com/eralpkaraduman/eralpkaraduman.com](https://github.com/eralpkaraduman/eralpkaraduman.com)
+
+Testing CD LOL, updated to Gatsby 2
