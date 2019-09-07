@@ -17,13 +17,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: Setup AWS CLI
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}  
-      run: |
-        pip install awscli
-        aws configure
+    - name: Install AWS CLI
+      run: pip install awscli
     - name: npm install, build
       run: |
         npm install
@@ -32,4 +27,7 @@ jobs:
       env:
         CI: true
     - name: deploy
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}  
       run: npm run deploy
