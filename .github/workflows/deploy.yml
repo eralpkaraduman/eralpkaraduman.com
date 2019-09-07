@@ -13,20 +13,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-
-    - name: Setup & Configure AWS CLI
-    - uses: actions/aws/cli@master
-      run: |
-        aws configure
+    - name: Include AWS CLI
+      uses: actions/aws/cli@master
+    - name: Configure AWS CLI 
+      run: aws configure
       env: 
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-
     - name: npm install, build, deploy
       run: |
         npm install
@@ -35,4 +32,3 @@ jobs:
         npm run deploy
       env:
         CI: true
-        
