@@ -23,8 +23,8 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Homepage and blog of Software Developer Eralp Karaduman' },
+            { name: 'keywords', content: 'Eralp Karaduman, Software Development, Blog, Game Development, App Development, iOS, Android, React, React Native, Flutter, Unity3D' },
           ]}
         />
         <div className="col-xs-12 col-sm-8 col-md-6">
