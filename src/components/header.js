@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import styled from 'styled-components';
-import logoImage from './logo.png';
+import avatar from './avatar_512.png';
 
 const HeaderContainer = styled.div`
   margin-top: 1rem;
@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => (
   <HeaderContainer>
     <div className='row center-xs'>
       <div className="col-xs">
-          <Logo src={logoImage} alt="Logo" />
+          <Logo src={avatar} alt="Logo" />
           <SiteTitle>
             <StyledLink to="/">{siteTitle}</StyledLink>
           </SiteTitle>
