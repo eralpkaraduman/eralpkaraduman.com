@@ -17,6 +17,13 @@ module.exports = {
         name: "index-markdown-content",
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pixelart`,
+        name: "pixelart-content",
+      },
+    },
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-google-analytics`,
