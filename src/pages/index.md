@@ -2,7 +2,7 @@ I'm a **senior software engineer** based in Helsinki, Finland. Working on **mobi
 
 Nowadays I'm making **cross-platform** apps using **React Native** and getting familiar with **Flutter**. Also have experience with **javascript** and technologies like **NodeJS**, **TypeScript**, **React** and **Redux**.  
 
-Previously I built **iOS** apps with **swift** / **Objective-C** along with their **backend** and **Android** counterparts for quite some time.  
+Previously I built **iOS** apps with **Swift** / **Objective-C** along with their **backend** and **Android** counterparts for quite some time.  
 
 When I'm not working on apps, I like **making games** with **Unity3D** at our own [Super Damage Games](http://superdamage.com)  
 
