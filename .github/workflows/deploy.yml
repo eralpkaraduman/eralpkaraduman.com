@@ -20,8 +20,8 @@ jobs:
       run: pip install awscli
     - name: Install dependencies & build
       run: |
-        npm install
-        npm run build
+        yarn
+        yarn build
         # npm test
       env:
         CI: true
