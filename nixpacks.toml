@@ -1,0 +1,5 @@
+[phases.setup]
+commands = [
+  "nvm install 10.8.0",
+  "nvm use 10.8.0"
+]
