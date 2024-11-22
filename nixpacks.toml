@@ -5,3 +5,4 @@ commands = [
 
 [variables]
 NIXPACKS_NODE_VERSION = "10.17.0"
+NODE_OPTIONS = "--openssl-legacy-provider"
