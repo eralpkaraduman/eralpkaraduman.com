@@ -1,16 +1,7 @@
 [phases.setup]
 commands = [
-  "npm install -g yarn@1.22.22" # Explicitly install Yarn v1 globally
-]
-
-[phases.build]
-commands = [
-  "node --version", # Confirm the Node.js version during build
-  "yarn --version", # Confirm the Yarn version during build
-  "yarn install",   # Install dependencies based on yarn.lock
-  "yarn build"      # Build the Gatsby application
+  "npm install -g yarn@1.22.19" # Explicitly install Yarn v1 globally
 ]
 
 [variables]
-NIXPACKS_NODE_VERSION = "10.8.0"
-NODE_OPTIONS = "--openssl-legacy-provider"
+NIXPACKS_NODE_VERSION = "10.17.0"
