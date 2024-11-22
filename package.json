@@ -43,7 +43,8 @@
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby-plugin-s3 deploy --yes",
-    "deploy:invalidateCache": " aws cloudfront create-invalidation --distribution-id E1JJ5LVH39GMT2 --paths \"/*\""
+    "deploy:invalidateCache": " aws cloudfront create-invalidation --distribution-id E1JJ5LVH39GMT2 --paths \"/*\"",
+    "preinstall": "npx only-allow npm"
   },
   "repository": {
     "type": "git",
