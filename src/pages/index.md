@@ -16,9 +16,9 @@ Best ways to contact me would be;
 - **Email:** [eralp@eralpkaraduman.com](mailto:eralp@eralpkaraduman.com). 
 - **Bluesky:** [https://bsky.app/profile/eralpkaraduman.com](bsky.app/profile/eralpkaraduman.com).
 - **Mastodon:** [https://mastodon.social/@eralp](mastodon.social/@eralp).
-- **Twitter:** [@eralpkaraduman](http://twitter.com/eralpkaraduman).  
 - **GitHub:** [eralpkaraduman](https://github.com/eralpkaraduman).  
 - **LinkedIn:** [eralpkaraduman](https://linkedin.com/in/eralpkaraduman).
+- **Twitter:** [@eralpkaraduman](http://twitter.com/eralpkaraduman).  
 
 This site is open source at;  
 [github.com/eralpkaraduman/eralpkaraduman.com](https://github.com/eralpkaraduman/eralpkaraduman.com)
