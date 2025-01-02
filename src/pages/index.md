@@ -14,8 +14,8 @@ When I'm not working I'm,
 
 Best ways to contact me would be;  
 - **Email:** [eralp@eralpkaraduman.com](mailto:eralp@eralpkaraduman.com). 
-- **Bluesky:** [https://bsky.app/profile/eralpkaraduman.com](bsky.app/profile/eralpkaraduman.com).
-- **Mastodon:** [https://mastodon.social/@eralp](mastodon.social/@eralp).
+- **Bluesky:** [bsky.app/profile/eralpkaraduman.com](https://bsky.app/profile/eralpkaraduman.com).
+- **Mastodon:** [mastodon.social/@eralp](https://mastodon.social/@eralp).
 - **GitHub:** [eralpkaraduman](https://github.com/eralpkaraduman).  
 - **LinkedIn:** [eralpkaraduman](https://linkedin.com/in/eralpkaraduman).
 - **Twitter:** [@eralpkaraduman](http://twitter.com/eralpkaraduman).  
