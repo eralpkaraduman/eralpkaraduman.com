@@ -4,7 +4,7 @@ Lately I've been making **cross-platform mobile apps** and **full stack web apps
 
 Previously I built **iOS** apps with **Flutter**, **Swift** / **Objective-C** along with their **backend** and **Android** counterparts for quite some time.
 
-If you're bootstrapping your startup, hit me up! I have experience from bootsrapping successful start ups and know the ropes. We'll figure out the best choises about tech architecture and infrastructure as well as finding the right people and building sustainable technology.
+If you're bootstrapping your startup, hit me up! I have experience from bootsrapping successful startups and know the ropes. We'll figure out the best choises about tech architecture and infrastructure as well as finding the right people and building sustainable technology.
 
 
 **[Download my CV](https://eralpkaraduman.github.io/cv/)**
