@@ -10,17 +10,16 @@ If you're bootstrapping your startup, hit me up! I have experience from bootsrap
 **[Download my CV](https://eralpkaraduman.github.io/cv/)**
 
 When I'm not working I'm,
-- Live streaming coding as of our small community of [Unhandled Exception Club](https://unhandledexception.club) at my [Twitch Channel](https://twitch.tv/erikThePlum). 
-- Producing a comedy podcast called [Kulak Show](https://kulak.show).
+- Live streaming coding as of our small community of [Unhandled Exception Club](https://unhandledexception.club) at my [Twitch Channel](https://twitch.tv/erikThePlum)   
+- Producing a comedy podcast called [Kulak Show](https://open.spotify.com/show/6Ace2VvsbkPKFkgqy4NWUc?si=0097ff13ea40460d)  
 
 Best ways to contact me would be;  
-- **Email:** [eralp@eralpkaraduman.com](mailto:eralp@eralpkaraduman.com). 
-- **Bluesky:** [bsky.app/profile/eralpkaraduman.com](https://bsky.app/profile/eralpkaraduman.com).
-- **Mastodon:** [mastodon.social/@eralp](https://mastodon.social/@eralp).
-- **GitHub:** [eralpkaraduman](https://github.com/eralpkaraduman).  
-- **LinkedIn:** [eralpkaraduman](https://linkedin.com/in/eralpkaraduman).
-- **Twitter:** [@eralpkaraduman](http://twitter.com/eralpkaraduman).  
+- **Email:** [eralp@eralpkaraduman.com](mailto:eralp@eralpkaraduman.com)  
+- **Bluesky:** [bsky.app/profile/eralpkaraduman.com](https://bsky.app/profile/eralpkaraduman.com)  
+- **Mastodon:** [mastodon.social/@eralp](https://mastodon.social/@eralp)  
+- **GitHub:** [eralpkaraduman](https://github.com/eralpkaraduman)  
+- **LinkedIn:** [eralpkaraduman](https://linkedin.com/in/eralpkaraduman)  
+- **Twitter:** [@eralpkaraduman](http://twitter.com/eralpkaraduman)  
 
-This site is open source at;  
-[github.com/eralpkaraduman/eralpkaraduman.com](https://github.com/eralpkaraduman/eralpkaraduman.com)
+This site is open source at [github.com/eralpkaraduman/eralpkaraduman.com](https://github.com/eralpkaraduman/eralpkaraduman.com)
 
